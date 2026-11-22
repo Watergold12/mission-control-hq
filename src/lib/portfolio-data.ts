@@ -115,7 +115,7 @@ export const MISSIONS = [
     summary:
       "Line-of-sight drone integrating sensor arrays with Arduino-based flight logic for stable, programmable hardware control.",
     tech: ["Flight Controllers", "ESC", "BLDC Motors"],
-    link: "",
+    link: "https://lnkd.in/p/gvy2qBYV",
   },
   {
     id: "MISSION-002",
@@ -124,7 +124,7 @@ export const MISSIONS = [
     summary:
       "Classic snake reimagined with pathfinding agents that learn optimal routes across the grid in real time.",
     tech: ["Python", "Pygame", "Pathfinding Algorithms", "DSA"],
-    link: "",
+    link: "https://github.com/Watergold12/AI-Snake-Game.git",
   },
   {
     id: "MISSION-003",
@@ -133,7 +133,7 @@ export const MISSIONS = [
     summary:
       "Automated pipeline that extracts structured content from research PDFs and reformats it into clean editable Word templates.",
     tech: ["Python", "pdfplumber", "python-docx", "sentence-transformers"],
-    link: "",
+    link: "https://github.com/Watergold12/DocForge.git",
   },
   {
     id: "MISSION-004",
@@ -141,7 +141,16 @@ export const MISSIONS = [
     status: "Completed",
     summary:
       "Designed and developed a full-featured e-commerce site for ZOCO, including product catalog, cart/checkout flow, and responsive design across devices.",
-    tech: ["Python", "Pygame", "Pathfinding Algorithms", "DSA"],
+    tech: ["Python", "Django", "HTML & CSS"],
+    link: "http://zoco.up.railway.app/",
+  },
+  {
+    id: "MISSION-005",
+    name: "Enterprise Knowledge Assistant",
+    status: "Ongoing",
+    summary:
+      "A permission-aware GenAI-powered RAG system that enables organizations to securely search internal documents and receive grounded, citation-backed answers.",
+    tech: ["Python & FastAPI", "PostgreSQL, SQLAlchemy and Alembic", "Qdrant", "Ollama, Sentence Transformers"],
     link: "",
   },
 ] as const;
